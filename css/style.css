@@ -105,8 +105,7 @@ button {
 }
 
 main .page-hero {
-  padding: 280px;
-  padding: 452px;
+  padding: 200px 452px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 94px;
@@ -134,7 +133,7 @@ main .page-hero {
   padding: 10px 32px;
   border-radius: 4px;
   min-width: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 0;
 
   color: #ffffff;
   background-color: var(--color-accent);
