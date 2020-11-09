@@ -129,6 +129,8 @@ main .page-hero {
 }
 
 .hero button {
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 32px;
   border-radius: 4px;
   min-width: 200px;
@@ -141,6 +143,7 @@ main .page-hero {
   font-size: 16px;
   line-height: 1.87;
 
+  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
