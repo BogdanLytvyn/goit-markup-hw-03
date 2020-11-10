@@ -370,6 +370,7 @@ footer {
 
 .work-nav .button {
   padding: 6px 22px;
+  border: none;
 
   background-color: var(--background-team);
   color: var(--text-color-primary);
@@ -389,8 +390,6 @@ footer {
 /* Портфолио card */
 .work-card {
   display: flex;
-  padding-bottom: 94px;
-
   flex-wrap: wrap;
 }
 
