@@ -351,6 +351,7 @@ footer {
 
 /* Портфолио samples */
 .portfolio {
+  border-bottom: 1px solid #ececec;
   margin-bottom: 94px;
 }
 
@@ -389,10 +390,12 @@ footer {
 .work-card {
   display: flex;
   padding-bottom: 94px;
+
   flex-wrap: wrap;
 }
 
 .work-card > li {
+  border: 1px solid #eeeeee;
   width: 370px;
   margin-right: 30px;
 }
