@@ -341,6 +341,7 @@ footer {
 }
 
 .footer-list .address {
+  font-style: inherit;
   color: #ffffff;
 }
 .list .footer-contact {
