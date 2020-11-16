@@ -348,6 +348,10 @@ footer {
   font-style: inherit;
 }
 
+.footer-list > li {
+  margin-bottom: 9px;
+}
+
 /* Стили portfolio.html */
 
 /* Портфолио samples */
