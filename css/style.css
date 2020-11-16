@@ -439,8 +439,7 @@ footer {
   font-size: 16px;
   line-height: 1.87;
 }
-.item-card > h2,
-.item-card > p {
+.item-card > div {
   margin-left: 24px;
   margin-right: 24px;
 }
