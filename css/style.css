@@ -439,6 +439,11 @@ footer {
   font-size: 16px;
   line-height: 1.87;
 }
+.item-card > h2,
+.item-card > p {
+  margin-left: 24px;
+  margin-right: 24px;
+}
 
 /* Оформление padding, margin */
 .conteiner {
@@ -450,4 +455,3 @@ footer {
 
   /* outline: 2px solid tomato; */
 }
-/* HHH */
