@@ -407,7 +407,6 @@ footer {
 }
 
 .work-card > .item {
-  padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
@@ -438,7 +437,7 @@ footer {
   line-height: 1.87;
 }
 .description-card {
-  padding: 20px 24px 0px;
+  padding: 20px 24px;
 }
 
 /* Оформление padding, margin */
