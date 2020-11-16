@@ -143,11 +143,11 @@ button {
   color: #ffffff;
 }
 
-main .page-hero {
+main .hero {
   padding: 200px 0;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   /* border: 1px solid transparent; */
 
   background-color: var(--background-dark);
@@ -155,7 +155,7 @@ main .page-hero {
   /* outline: 2px solid tomato; */
 }
 
-.hero > h1 {
+.hero h1 {
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -189,6 +189,11 @@ main .page-hero {
 }
 
 /* feature Подходы роботы*/
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .feature-list h2 {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -213,10 +218,6 @@ main .page-hero {
   line-height: 1.71;
 }
 
-.page-feature {
-  margin-bottom: 94px;
-}
-
 .feature-list > li:not(:last-child) {
   margin-right: 30px;
 }
@@ -231,7 +232,10 @@ main .page-hero {
 }
 
 /* sample Чем мы занимаемся */
-.sample > h3 {
+.sample {
+  padding-bottom: 94px;
+}
+.sample h3 {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -241,10 +245,6 @@ main .page-hero {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
-
-.page-sample {
-  margin-bottom: 94px;
 }
 
 .sample-list {
@@ -260,7 +260,7 @@ main .page-hero {
   padding-bottom: 94px;
 }
 
-.team > h4 {
+.team h4 {
   display: block;
   margin-top: 0;
   margin-bottom: 50px;
@@ -356,9 +356,12 @@ footer {
 /* Портфолио samples */
 .portfolio {
   border-bottom: 1px solid #ececec;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
-
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .work-nav {
   display: flex;
   justify-content: center;
@@ -366,10 +369,6 @@ footer {
 }
 .work-nav > li:not(:first-child) {
   margin-left: 8px;
-}
-
-.page-work {
-  margin-bottom: 94px;
 }
 
 .work-nav .button {
@@ -439,9 +438,7 @@ footer {
   line-height: 1.87;
 }
 .description-card {
-  padding-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding: 20px 24px 0px;
 }
 
 /* Оформление padding, margin */
